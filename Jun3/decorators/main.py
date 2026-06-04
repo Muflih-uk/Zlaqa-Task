@@ -1,6 +1,6 @@
-from decorators.auth_required import User, auth_required, current_user
-from decorators.logger import logger
-from decorators.timer import timer
+from codes.auth_required import User, auth_required, current_user
+from codes.logger import logger
+from codes.timer import timer
 
 
 @timer
